@@ -1,0 +1,419 @@
+
+body {
+    margin:0;
+    padding:0;
+    
+}
+header {
+    display:flex;
+    justify-content:center;
+    height:120px;
+}
+.container {
+    display:flex;
+    justify-content:space-between;
+    width:990px;
+    
+}
+.logo {
+    display:flex;
+    align-items:center;
+}
+.menu {
+    display:flex;
+    align-items:center;
+}
+nav ul,
+nav li {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:#382e34;
+    font-family:Helvetica;
+
+}
+nav .active a,
+nav a:hover {
+    background-color:#daa520 ;
+    color:#EDD4B2;
+}
+#banner {
+    display:flex;
+    justify-content:center;
+    background-image:url('../images/banner2.png');
+    background-position:center;
+    background-size:cover;
+    height:670px;
+}
+.column {
+    flex-direction:column;
+}
+.banner_headline {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:20px;
+    
+}
+.banner_headline0 h1 {
+    color:#4D243D;
+    font-size:50px;
+    text-shadow:2px 0.8px 10px #555555;
+    align-items:center;
+    
+    
+}
+.banner_headline h2 {
+    color:#4D243D;
+    font-size:25px;
+    text-align:right
+}
+.banner_headline h3 {
+    color:#4D243D;
+    font-size:25px;
+    text-align:left;
+    
+}
+.banner_headline1 h4 {
+    color:#4D243D;
+    font-size:25px;
+    text-align:center;
+    margin-top:175px;
+}
+#geral {
+    display:flex;
+    justify-content:center;
+}
+#geral section {
+   flex:2; 
+}
+#geral aside {
+    flex:1;
+}
+.widget_title {
+    margin-top:30px;
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:Georgia;
+}
+.widget_title_text {
+    color:#4D243D;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:3px;
+}
+.widget_title_bar {
+    width:50px;
+    height:4px;
+    font-size:15px;
+    background-color:#4D243D;
+    margin-top:10px;
+    bottom:10px;
+    margin-bottom: 10px;
+   
+}
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+}
+article {
+    flex:1;
+    min-width:280px;
+    margin-right:10px;
+}
+article a {
+    text-decoration:none;
+}
+article .news_portfolio {
+    margin-top:30px;
+}
+article .news_portfolio img {
+    width: 100%;
+    height: auto;
+}
+article .news_title {
+    margin-top:25px;
+    margin-bottom:25px;
+    color:#4D243D;
+    font-size:23px;
+}
+article .news_resume {
+    color:#522540;
+    line-height:20px;
+    font-size:14px;
+    margin-bottom:30px;
+}
+    
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5,
+.banner6,
+.banner7{
+    flex:3;
+    color:#4D243D;
+    padding:8px;
+    margin-bottom:5px;
+}
+.banner1 {
+    background-color:#FFFFFF;
+}
+.banner2 {
+    background-color:#FFFFFF;
+    
+}
+.banner3 {
+    background-color:#ECDCC9;
+}
+.banner4 {
+    background-color:#ECDCC9;
+}.banner5 {
+    background-color:#ECDCC9;
+}.banner6 {
+    background-color:#ECDCC9;
+}.banner7 {
+    background-color:#ECDCC9;
+}
+.banner_title {
+    font-size:15px;
+    height:5px;
+    display: flex;
+    font-weight:bold;
+    font-family:Georgia;
+    
+}
+.banner_desc {
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.widget_body a{
+    display:inline-block;
+    border:1px solid#4D243D;
+    padding:2px;
+    color:#4D243D;
+    font-size:12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom:20px;
+}
+
+.banner01 {
+    display:inline-block;
+    border:0px solid#4D243D;
+    padding:10px;
+    color:#4D243D;
+    margin:0 auto;
+    align-items:center;
+}
+
+.banner02 {
+    display:inline-block;
+    border:0px solid#4D243D;
+    padding:20px;
+    color:#4D243D;
+    margin:0 auto;
+    align-items:center;
+}
+.widget_title_cliente {
+    margin-top:30px;
+    margin-bottom:5px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:Georgia;
+    padding: 10px;
+
+}
+.widget_title_text_cliente {
+    color:#4D243D;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:3px;
+    padding: 10;
+
+}
+.widget_title_bar_cliente {
+    width:50px;
+    height:4px;
+    font-size:15px;
+    background-color:#4D243D;
+    margin-top:10px;
+    
+
+}
+
+#clientes section {
+   flex:3; 
+   
+}
+.section-title {
+    color: #4D243D;
+    font-size:20px;
+    height:5px;
+    display: flex;
+    font-weight:bold;
+    font-family:Georgia;
+    justify-content:center;
+    margin-top:20px;
+    text-align: center;
+    
+    
+}
+
+.section-clientes--photos {
+    width:100vw;
+    max-width:1140px;
+    margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:20px;
+}
+.section-clientes--photo {
+    width:380px;
+    justify-content:center;
+}
+.section-projects--photoarea {
+    margin:1px;
+    width:380px;
+    height:200px;
+    padding:70px;
+    align-items:center;
+    margin:auto;
+    
+}
+
+.widget_titlee_bar {
+    display:flex;
+    width:100%;
+    height:4px;
+    font-size:15px;
+    background-color:#4D243D;
+    margin-top:50px;
+    text-align:center;
+    margin: auto;
+    bottom:10px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+/**RODAPE**/
+footer {
+    background-color: #4D243D;
+    justify-content: center;
+    width:100%;
+    height:140px;
+    text-align:center;
+    margin:auto;
+    align-items: center;
+
+
+}
+.socialIcons {
+    width: 100%;
+    padding: 40px;
+}
+.socialIcons a {
+    font-size: 1.7em;
+    color:#ECDCC9;
+    opacity:0.7em;
+    margin-right: 3%;
+    margin-top: 10px;
+    
+
+}
+.socialIcons a:last-child {
+    margin-right:0
+}
+.socialIcons {
+    opacity: 1;
+}
+.direitos {
+    margin-top:5%;
+    color: #ECDCC9;
+    opacity: 0.7em;
+    margin: 2px;
+}
+.menuMobile {
+    display:none;
+    width:40px;
+    height:40px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-right:20px;
+}
+.mm_line {
+    height:3px;
+    background-color:#4D243D;
+}
+@media (max-width:600px) {
+    .banner_headline{
+        padding: 20px;
+    }
+
+    .banner_headline0 h1 {
+        font-size:28px;
+    }
+    .banner_headline h2 {
+        font-size:17px;
+    }
+    .banner_headline h3 {
+        font-size: 15;
+    }
+    .banner_headline1 h4 {
+        font-size: 15; 
+    }
+    #geral,
+    .container {
+        flex-direction:column;
+    }
+    
+    #geral section,
+    #geral aside {
+        padding:20px;
+    }
+    #cliente section {
+        flex-direction:column;
+    }
+    .section-clientes--photos {
+        flex-direction:column;
+    }
+    .rodape {
+        flex-direction: column;
+    }
+    .socialIcons {
+        flex-direction: column;
+        
+    }
+    header.container {
+        flex-direction:row;
+    }
+    nav ul {
+        flex-direction:column ;
+        display:none;
+    }
+    header {
+        height:auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .menuMobile {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+}
